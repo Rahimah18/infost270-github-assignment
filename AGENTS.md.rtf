@@ -1,0 +1,93 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # AGENTS.md\
+\
+## Project Overview\
+This project is a simple Mood Tracker web app hosted on GitHub Pages.\
+\
+The app should allow users to:\
+- Select their mood each day using emoji/icons\
+- Add optional notes\
+- View mood history\
+- View a simple chart of moods over time\
+- Save all data locally in the browser using localStorage\
+- Work fully offline after loading\
+- Be mobile-friendly and simple to use\
+\
+The project should use:\
+- HTML\
+- CSS\
+- JavaScript (no backend)\
+- localStorage for saving data\
+- GitHub Pages for hosting\
+\
+Do NOT use:\
+- Databases\
+- Servers\
+- Authentication systems\
+- Complex frameworks unless absolutely necessary\
+\
+Keep the project beginner-friendly and easy to understand.\
+\
+---\
+\
+# App Requirements\
+\
+## Main Features\
+\
+### 1. Mood Entry\
+Users can:\
+- Choose a mood from emoji buttons:\
+  - \uc0\u55357 \u56832  Happy\
+  - \uc0\u55357 \u56848  Neutral\
+  - \uc0\u55357 \u56866  Sad\
+  - \uc0\u55357 \u56865  Angry\
+  - \uc0\u55357 \u56884  Tired\
+  - \uc0\u55357 \u56845  Excited\
+- Add a short note\
+- Save the entry\
+\
+Each entry should automatically include:\
+- Current date\
+- Current time\
+\
+---\
+\
+### 2. Mood History\
+Display previous mood entries in:\
+- A clean list\
+- Most recent first\
+\
+Each item should show:\
+- Mood emoji\
+- Mood name\
+- Note\
+- Date/time\
+\
+Allow users to:\
+- Delete entries\
+- Clear all entries with confirmation\
+\
+---\
+\
+### 3. Mood Chart\
+Create a simple chart showing mood trends over time.\
+\
+Suggested tools:\
+- Chart.js preferred\
+\
+The chart should:\
+- Update automatically\
+- Read from saved localStorage data\
+\
+---\
+\
+### 4. Browser Storage\
+All mood data must persist using:\
+```js\
+localStorage}
